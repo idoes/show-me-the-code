@@ -33,7 +33,7 @@ def process():
     #print str(text_width) + ", " + str(text_height)  # test
     #print str(image_width) + ", " + str(image_height)  # test
 
-    a_draw.text((location_list[0], location_list[1]), a_text, font=a_font)
+    a_draw.text((location_list[0], location_list[1]), a_text, fill="red", font=a_font)
     a_image.save(what_output(), "PNG")
 
 process()
